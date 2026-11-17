@@ -1,8 +1,8 @@
 <!--Unit 4 Project
 Requirements
-[ ] Three Distinct CSS font-family Declarations
-[ ] Five CSS Rules
-[ ] An Unordered **or** Ordered List (<ul> or <ol>)
+[yes] Three Distinct CSS font-family Declarations
+[yes] Five CSS Rules
+[yes ] An Unordered **or** Ordered List (<ul> or <ol>)
 [ ] Three Images
 
 Select ONE Additional Feature to Add  
@@ -20,29 +20,49 @@ Select ONE Additional Feature to Add
   <title>Unit 4 Project</title>
   <meta charset="utf-8">
   <style>
+    .Title{
+      font-family: cursive;
+    }
     .FP{
-      color: rgb(0,90,156)
+      color: rgb(0,90,156);
+      font-family:fantasy;
     }
     .PR{
-      color: rgb(222,114,114)
+      color: rgb(222,114,114);
+      font-family:sans-serif;
     }
     .AF{
-      color:rgb(224,0,0)
+      color:rgb(224,0,0);
+      font-family:fantasy;
     }
-
-
+    h1{
+      color:darkmagenta
+    }
+    body{
+      background-color: rgb(201,181,224)
+    }
+    #frozen-planet{
+      color: rgb(96,97,182);
+    }
+    #Panini{
+      color: rgb()
+    }
   </style>
 </head>
 <body>
 
-  <h1>Come Visit Bergen Beach Brooklyn!</h1>
+  <h1 class="Title">Come Visit Bergen Beach Brooklyn!</h1>
   <h3>This guide contains all my favorite spots I like to go to around my neighborhood! </h3>
   
   <h3 class="FP">Frozen Planet</h3>
   <hr>
-  <p>Frozen Planet is the neighbors local frozen yogurt shop that everyone goes to. They have a bunch of flavors of yogurt and the biggest selection of toppings I've ever seen!</p>
+  <p id="frozen-planet">Frozen Planet is the neighbors local frozen yogurt shop that everyone goes to. They have a bunch of flavors of yogurt and the biggest selection of toppings I've ever seen!</p>
   <br><br>
-  <
+  <img
+  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPeI24zIEQeZ4rqbf7P2wDkxhwkKqkJ5MoR7D9CUpTVqKAdjtf-IxVQDk&s=10"
+  alt="Frozen Yogurt"
+  width="250"
+  >
   <h3>Here are some of my favorite frozen Yogurt combos:</h3>
   <ul>
     <li>Cake batter yogurt with oreos, mini cookie dough bites and mini cake bites</li>
@@ -52,12 +72,12 @@ Select ONE Additional Feature to Add
 
   <h3 class="PR">Panino Rustico</h3>
   <hr>
-  <p>About Content Element #2</p>
+  <p id="Panini">This is my favorite Panini Place! They make the best Panini's, pasta and the workers are always the nicest!</p>
   <br><br>
 
   <h3 class="AF">Aviator feilds</h3>
   <hr>
-  <p>Aviator feilds used to be an old airport </p>
+  <p id="Aviator">Aviator feilds used to be an old airport </p>
   <br><br>
 
 </body>
